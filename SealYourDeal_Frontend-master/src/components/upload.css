@@ -1,0 +1,118 @@
+.Upload {
+  height: 100%;
+  width: 100%;
+  /* background: #0dcaf0; */
+  margin: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px); */
+}
+.inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.icon_flexbox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.upload_flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* padding: 5rem; */
+  /* border: 0.5px solid black; */
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  display: none;
+}
+
+input[type="file"] {
+  width: 25%;
+  font-size: 0.8rem;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.list {
+  background-color: #121d2f;
+  border: 1px solid white;
+  width: 100%;
+  height: 250px;
+  padding: 15px;
+  align-self: start;
+  color: white;
+  margin-right: 0px;
+}
+
+.list ul.files {
+  margin-top: 20px;
+}
+
+.list .ul .files li {
+  margin-bottom: 5px;
+}
+
+.list .ul .files i {
+  color: #58a6ff;
+  padding-left: 8px;
+  cursor: pointer;
+}
+
+.form {
+  background-color: #121d2f;
+  width: 100%;
+  padding: 15px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+.form i,
+.form p {
+  color: white;
+}
+
+.form button {
+  background: #58a6ff;
+  color: white;
+  border: 1px solid white;
+  padding: 2px 8px;
+}
+
+#submit {
+  position: absolute;
+  bottom: 120px;
+  left: calc(50% - 66px);
+}
+
+.bg {
+  background: url(../../public/images/upload.jpeg) no-repeat;
+}
