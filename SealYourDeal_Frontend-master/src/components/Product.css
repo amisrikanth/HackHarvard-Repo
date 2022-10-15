@@ -1,0 +1,29 @@
+div.reviewsText {
+  width: 100%;
+}
+
+div.poster {
+  margin: 10px;
+}
+
+p.review {
+  white-space: pre-line;
+}
+
+.bigProductPicture {
+  float: right;
+}
+
+.btn div.content {
+  margin: "15px" !important;
+  margin-left: "0px" !important;
+}
+
+.btn {
+  margin: "15px" !important;
+  margin-left: "0px" !important;
+}
+
+.bidNowButton {
+  background-color: #660409 !important;
+}
