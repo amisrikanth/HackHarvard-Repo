@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&family=Poppins:wght@500&display=swap");
+
+.productRow {
+  margin-top: 15px;
+}
+
+.card {
+  margin-top: 15px;
+}
+
+.search-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.search-flex > input {
+  width: 50% !important;
+}
+
+.search-flex > button {
+  background-color: #660409 !important;
+  color: white;
+}
+
+.productsListCard {
+  width: 250px;
+  box-shadow: 0.1rem 0.1rem 12px 0px rgb(0 0 0 / 35%) !important;
+  border-radius: 1rem 1rem 0 0 !important;
+  margin: 1rem !important;
+}
+
+.middle_search {
+  text-align: center !important;
+}
+
+div.poster {
+  margin: 10px;
+}
+
+.smallPoster {
+  user-select: none;
+  /* height: 18rem;
+    width: 17.9rem; */
+  height: 300px !important;
+  width: 250px !important;
+  object-fit: cover !important;
+  border-radius: 1rem 1rem 0 0 !important;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%) !important;
+}
+
+.cardBody > h2 {
+  color: #b30710;
+  font-family: "Oswald", sans-serif;
+}
+
+.cardBody {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  /* justify-content: center !important; */
+  padding: 0.5rem !important;
+  max-width: 200px !important;
+  margin: auto !important;
+  text-align: center;
+  height: 60vh;
+}
+
+.cardPara {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.cardButton-margin {
+  margin-top: auto !important;
+  width: 100%;
+}
+
+.cardButton {
+  width: 100%;
+  border-radius: 10px;
+  /* text-align: center; */
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  background-color: #b30710;
+  color: white;
+  border: 0px;
+  padding: 0.5rem;
+}
