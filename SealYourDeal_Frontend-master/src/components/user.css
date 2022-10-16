@@ -1,0 +1,67 @@
+div.reviewsText {
+  width: 100%;
+}
+
+div.poster {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p.review {
+  white-space: pre-line;
+}
+.profile {
+  float: right;
+}
+
+.bigPicture {
+  float: right;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slick-slide {
+  height: 200px;
+  border: 1px solid #000;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.slick-slide img {
+  margin: 0 auto;
+  height: 225px;
+}
+
+.slick-next,
+.slick-prev {
+  width: 100px;
+  height: 100px;
+  background-color: #0dcaf0 !important;
+  z-index: 99999;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slick-next::before,
+.slick-prev::before {
+  font-size: 50px;
+}
+
+.productsButton > div > button {
+  background-color: #b30710 !important;
+}
